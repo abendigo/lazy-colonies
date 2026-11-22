@@ -1,6 +1,6 @@
 # Lazy Colonies
 
-A "Lazy Bastard" style, hands-off challenge for the [MineColonies](https://minecolonies.com) mod, inspired by Factorio's
+A hands-off challenge for the [MineColonies](https://minecolonies.com) mod, inspired by Factorio's
 *Lazy Bastard* achievement (win while handcrafting no more than 111 items).
 
 **The idea:** you are the planner, not the labourer. You pick sites, place schematics and manage
