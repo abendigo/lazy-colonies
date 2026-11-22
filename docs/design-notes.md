@@ -21,6 +21,8 @@ the work. The interesting constraint is not the opening, but everything the colo
 - **No free-building** after founding, anywhere. A separate outside economy would leak into the colony
   and undo the "your gear depends on the colony" part of the late game.
 - **Sophisticated Backpacks:** not used.
+- **Hut blocks and quests, combined:** colonists make hut blocks (Sawmill datapack); a quest pack
+  covers what colonists can't: animals, dead-end items and bootstrap items.
 - **Trade Post add-on:** not used. Its Marketplace Rare Finds felt overpowered for this challenge.
 
 ## Why the Sawmill (and not the Builder)?
@@ -95,9 +97,51 @@ Forester → Sawmill (planks) + Shepherd (wool) → Fletcher (beds) → Dyer (co
 
 The supply camp includes a few beds to bridge the gap.
 
+## Quest pack
+
+A quest pack (most likely **FTB Quests**) works alongside the datapack. The datapack keeps the core
+idea, colonists make everything they can, and quests fill the gaps.
+
+### What quests reward
+
+| Gap | Quest reward |
+|---|---|
+| Animals (colonists can't catch them) | Spawn eggs for a breeding pair when the matching hut is built, e.g. "Build a Shepherd's Hut" → 2 sheep eggs. Replaces the "lead in one breeding pair" rule. |
+| Dead-end items (no colonist source) | One-off rare items for real milestones. Replaces the free 111-exemption budget. |
+| Bootstrap items | Extra beds, and possibly the Forester and Sawmill hut blocks. If quests can deliver all of these, the custom supply camp style pack may not be needed. |
+| Learning the rules | A first chapter that explains the challenge in-game. |
+
+### Guardrails
+
+- **Reward colony milestones, not player actions.** Prefer advancement tasks: MineColonies has its own
+  advancements for building and upgrading huts, so most quests can complete themselves. Item-submission
+  tasks are fine if the items are colony-made (handing them in counts as hauling).
+- **Reward unlocks, not resources.** Spawn eggs, a hut block, a single rare item: yes. Bulk materials
+  (a stack of iron): no. Bulk rewards skip the production chain.
+- **Hut blocks stay colony-made.** Quests don't hand out hut blocks beyond the bootstrap, so the Sawmill
+  stays the tech tree.
+
+### Chapter outline (draft)
+
+1. **The Charter** — rules of the challenge; scouting; found the colony.
+2. **Breaking Ground** — Builder's Hut, Town Hall, Forester, Sawmill.
+3. **A Working Town** — Warehouse, Courier, Tavern, food chain (Dining Hall, Chef's Kitchen).
+4. **Hearth and Home** — Shepherd, Fletcher, beds; animal huts (egg rewards).
+5. **Industry** — Stonemason, Smeltery, Blacksmith; Sawmill tier 2–3.
+6. **Learning** — University and research milestones.
+7. **The Capital** — Town Hall level 5, all research.
+8. **The Last Stand** — survive the final raid.
+
+### To check
+
+- [ ] FTB Quests version for Minecraft 1.21.1 / NeoForge.
+- [ ] Which MineColonies advancements exist, and whether they're enough to track hut levels and research.
+- [ ] Whether spawn egg rewards spawn animals somewhere sensible (near the hut, not on the player).
+
 ## Custom supply camp
 
 Needs a custom style pack whose supply camp chest contains the starting inventory above.
+*May be unnecessary if quest rewards can deliver the bootstrap items — see Quest pack.*
 To investigate: how to edit an existing supply camp blueprint's chest contents with the current
 Structurize scan tool, and whether a style pack can ship *only* a supply camp.
 
@@ -113,6 +157,6 @@ Structurize scan tool, and whether a style pack can ship *only* a supply camp.
 ## Open questions
 
 - **Loot:** allow guard-tower drops into the colony, or ban all loot?
-- **Dead ends:** strict (do without) vs. a 111-item exemption budget.
+- **Dead ends:** handled by quest rewards (see Quest pack). Which items, and at which milestones?
 - **Final raid:** do colonist deaths count against you? Confirm the raid command's syntax in your version.
 - **Modpack gaps:** list any modded items in the pack that no colonist can produce.

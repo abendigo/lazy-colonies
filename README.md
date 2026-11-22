@@ -36,6 +36,7 @@ These apply from the moment the supply camp is placed.
   between huts before couriers exist. Moving items is fine; *converting* them is not.
 - **Herd.** Lead in **one breeding pair** of animals per animal hut (Shepherd, Cowhand,
   Swineherd, Chicken Herder, Rabbit Hutch). Colonists can't catch animals, so this counts as hauling.
+  *(Planned: replaced by quest rewards — see below.)*
 - **Defend yourself.** Fighting is allowed (except in the [final raid](#victory-conditions)), but
   anything that drops is not colony property — see [Loot](#loot).
 
@@ -126,10 +127,20 @@ The colony survives if the raid is defeated and the Town Hall still stands.
 
 ---
 
+## Quest pack (planned)
+
+A quest pack works alongside the datapack. Colonists make everything they can; quests fill the gaps
+they can't: **spawn eggs** for animal huts, **rare items** with no colonist source, and **bootstrap
+items** for the start. Quests reward colony milestones, and give unlocks, never bulk resources.
+Details in the [design notes](docs/design-notes.md#quest-pack).
+
+---
+
 ## Requirements
 
 - Minecraft **1.21.1** with **NeoForge**
 - MineColonies **1.1.1420** or newer (the 1.21.1 line)
+- A quest pack, most likely FTB Quests (not yet written)
 - The challenge datapack (not yet written) and the custom supply camp style pack (not yet written)
 
 ## Credits
