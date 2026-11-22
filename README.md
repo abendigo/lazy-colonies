@@ -112,8 +112,8 @@ The colony survives if the raid is defeated and the Town Hall still stands.
 
 ## Requirements
 
-- Minecraft: *TBD*
-- MineColonies: *TBD*
+- Minecraft **1.21.1** with **NeoForge**
+- MineColonies **1.1.1420** or newer (the 1.21.1 line)
 - The challenge datapack (not yet written) and the custom supply camp style pack (not yet written)
 
 ## Credits
