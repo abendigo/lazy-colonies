@@ -138,6 +138,43 @@ idea, colonists make everything they can, and quests fill the gaps.
 - [ ] Which MineColonies advancements exist, and whether they're enough to track hut levels and research.
 - [ ] Whether spawn egg rewards spawn animals somewhere sensible (near the hut, not on the player).
 
+## Prior art
+
+No written "no handcrafting" challenge for MineColonies turned up (searched Nov 2026). Related work:
+
+### Closest in spirit
+
+- **[MineColonies](https://minecolonies.org/)** itself frames the mod as leadership rather than labour.
+  This challenge takes that literally.
+- **[NoHandCrafting](https://mods.factorio.com/mod/NoHandCrafting)** (Factorio) — enforces the original
+  idea with a mod. A model for the open "enforce vs. honour system" question.
+- **[ColonyAutopilot](https://www.curseforge.com/minecraft/mc-mods/colonyautopilot)** — its Progression
+  Mode has a similar "only the colony spends" economy rule. It automates the planning, too, so it
+  doesn't fit this challenge, but it tackles the same "no shortcuts" problem.
+- **[Create a Colony](https://www.curseforge.com/minecraft/modpacks/create-a-colony)** — a modpack where
+  the colony can provide every resource, as a convenience rather than a restriction.
+
+### Quest-driven MineColonies packs (reference for quest design)
+
+- **[Dust 2 Core: Minecolony](https://www.curseforge.com/minecraft/modpacks/dust-2-core-minecolony)** —
+  closest structurally: colony buildings, research and upgrades gate further progression.
+- **[Colony Ascendant](https://www.curseforge.com/minecraft/modpacks/colony-ascendant)**,
+  **[SteakCraft Colonies](https://www.curseforge.com/minecraft/modpacks/steakcraft-colonies)**,
+  **[Chubby's Colonies](https://www.curseforge.com/minecraft/modpacks/chubbys-colonies)**,
+  **[Bootstrapped Colonies / MCGS](https://www.curseforge.com/minecraft/modpacks/minecolonies-getting-started)**
+  — 1.21.1 NeoForge packs with FTB Quests. Mostly material rewards (the opposite of our guardrail), but
+  useful for seeing how they detect colony progress.
+- **[Minecolonies Questline](https://www.curseforge.com/projects/1326883)** — a standalone FTB Quests
+  chapter (needs KubeJS) teaching MineColonies. A possible base for chapter 1, "The Charter".
+
+### Tools worth knowing
+
+- **[MineColonies Tweaks](https://www.curseforge.com/minecraft/mc-mods/minecolonies-tweaks)** — can run a
+  command when research completes. Could hand out rewards on research milestones, or fill gaps where
+  FTB Quests can't detect research.
+- **MineColonies config** — has supply-chest options (e.g. `allowInfiniteSupplyChests`) worth checking
+  before building a custom supply camp.
+
 ## Custom supply camp
 
 Needs a custom style pack whose supply camp chest contains the starting inventory above.
