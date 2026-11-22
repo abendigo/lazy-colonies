@@ -11,7 +11,22 @@ colonists. The colonists do all the gathering, crafting and building.
 
 ---
 
+## Phase 0: Scouting
+
+Before the colony exists, you play **normal survival**: craft, mine, fight, build a boat, whatever you
+need to survive and find a good site. **Placing the supply camp ends Phase 0** and starts the challenge.
+
+**Carry-over rule.** When you found the colony, you keep only personal gear: what you're wearing and
+carrying for your own use (tools, weapons, armour, food, a bed, a boat). None of it may go into the
+colony. Everything else is discarded, or left in a chest the colony never touches.
+
+*Optional:* found the colony before the end of day 3.
+
+---
+
 ## The rules
+
+These apply from the moment the supply camp is placed.
 
 ### You may
 
@@ -30,6 +45,7 @@ colonists. The colonists do all the gathering, crafting and building.
 - **Gather.** No mining, chopping, farming or fishing once the supply camp's stock runs out.
 - **Process.** No smelting, cooking, brewing or any other item conversion.
 - **Place blocks** — the builders do that. Exception: chests and torches during initial setup.
+- **Free-build anywhere.** No building of your own after founding, inside or outside the colony.
 
 ### Loot
 
@@ -81,7 +97,7 @@ gated by the Sawmill's level and by research. The Sawmill's level becomes your t
 
 ## Suggested opening
 
-1. Place the supply camp; haul the Builder's Hut materials to the build site.
+1. Scout a site (Phase 0), then place the supply camp; haul the Builder's Hut materials to the build site.
 2. **Builder's Hut** → **Town Hall**
 3. **Forester** → **Sawmill** (hut blocks start flowing)
 4. **Miner** → **Warehouse + Courier** (you can stop hauling)

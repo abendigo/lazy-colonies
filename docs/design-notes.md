@@ -17,6 +17,10 @@ the work. The interesting constraint is not the opening, but everything the colo
 - **Target version:** Minecraft 1.21.1 / NeoForge, MineColonies 1.1.1420+ (latest as of Nov 2026).
 - **Victory:** all research, Town Hall L5, then survive the final raid with guards only.
 - **Animals:** one breeding pair per animal hut may be led in by the player.
+- **Phase 0 (scouting):** normal survival until the supply camp is placed; only personal gear carries over.
+- **No free-building** after founding, anywhere. A separate outside economy would leak into the colony
+  and undo the "your gear depends on the colony" part of the late game.
+- **Sophisticated Backpacks:** not used.
 - **Trade Post add-on:** not used. Its Marketplace Rare Finds felt overpowered for this challenge.
 
 ## Why the Sawmill (and not the Builder)?
