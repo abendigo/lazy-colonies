@@ -71,8 +71,8 @@ gated by the Sawmill's level and by research. The Sawmill's level becomes your t
 
 | Unlock | Hut blocks |
 |---|---|
-| Sawmill level 1 | Warehouse, Courier, Residence, Farmer, Fisher, Miner, Shepherd, Fletcher |
-| Sawmill level 2–3 | Cook, Smeltery, Stonemason, Blacksmith, Guard Tower, Dyer |
+| Sawmill level 1 | Warehouse, Courier, Residence, Tavern, Farmer, Fisher, Dining Hall, Chef's Kitchen, Miner, Shepherd, Fletcher |
+| Sawmill level 2–3 | Smeltery, Stonemason, Blacksmith, Guard Tower, Dyer |
 | Research-gated | University and late-game huts, tied to the research that normally unlocks them |
 
 *Tiers are a first draft — see the design notes for balancing.*
@@ -85,10 +85,11 @@ gated by the Sawmill's level and by research. The Sawmill's level becomes your t
 2. **Builder's Hut** → **Town Hall**
 3. **Forester** → **Sawmill** (hut blocks start flowing)
 4. **Miner** → **Warehouse + Courier** (you can stop hauling)
-5. **Farmer / Fisher → Cook** (food)
-6. **Shepherd → Fletcher** (beds) — add a **Dyer** if your style uses coloured beds
-7. **Stonemason, Smeltery, Blacksmith** (building materials and tools)
-8. **University** (research and late-game unlocks)
+5. **Tavern** (more colonists, early)
+6. **Farmer / Fisher → Dining Hall + Chef's Kitchen** (food)
+7. **Shepherd → Fletcher** (beds) — add a **Dyer** if your style uses coloured beds
+8. **Stonemason, Smeltery, Blacksmith** (building materials and tools)
+9. **University** (research and late-game unlocks)
 
 ---
 

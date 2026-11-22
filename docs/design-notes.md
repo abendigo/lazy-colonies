@@ -64,13 +64,21 @@ Draft shape (placeholders, not final):
 
 | Unlock | Hut blocks |
 |---|---|
-| Sawmill L1 | Warehouse, Courier, Residence, Farmer, Fisher, Miner, Shepherd, Fletcher |
-| Sawmill L2–3 | Cook, Smeltery, Stonemason, Blacksmith, Guard Tower, Dyer |
+| Sawmill L1 | Warehouse, Courier, Residence, Tavern, Farmer, Fisher, Dining Hall, Chef's Kitchen, Miner, Shepherd, Fletcher |
+| Sawmill L2–3 | Smeltery, Stonemason, Blacksmith, Guard Tower, Dyer |
 | Research | University and late-game huts — tie each to the research that normally unlocks it |
 
 Not yet placed: Builder's Hut (extra builders), Town Hall upgrades, Barracks, Hospital, Library, School,
-Graveyard, Tavern, Enchanter, Alchemist, Composter, Florist, Beekeeper, Concrete Mixer, Crusher, Sifter,
+Graveyard, Enchanter, Alchemist, Composter, Florist, Beekeeper, Concrete Mixer, Crusher, Sifter,
 Glassblower, Mechanic, Plantation, Nether Miner, and animal huts other than the Shepherd.
+
+## Early priorities
+
+The **Tavern**, **Dining Hall** and **Chef's Kitchen** matter early: the Tavern brings in new
+colonists, and the Dining Hall and Chef's Kitchen keep them fed. All three are in Sawmill tier 1.
+
+To test: what each needs to run (ingredients, which raw foods the Kitchen wants), so the
+Farmer/Fisher can be set up to feed it.
 
 ## Bed chain
 
