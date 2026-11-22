@@ -21,8 +21,8 @@ colonists. The colonists do all the gathering, crafting and building.
   between huts before couriers exist. Moving items is fine; *converting* them is not.
 - **Herd.** Lead in **one breeding pair** of animals per animal hut (Shepherd, Cowhand,
   Swineherd, Chicken Herder, Rabbit Hutch). Colonists can't catch animals, so this counts as hauling.
-- **Defend yourself.** Fighting is allowed, but anything that drops is not colony property — see
-  [Loot](#loot).
+- **Defend yourself.** Fighting is allowed (except in the [final raid](#victory-conditions)), but
+  anything that drops is not colony property — see [Loot](#loot).
 
 ### You may not
 
@@ -95,11 +95,18 @@ gated by the Sawmill's level and by research. The Sawmill's level becomes your t
 
 ## Victory conditions
 
-*To be decided.* Ideas:
+You win when all three are true:
 
-- Reach Town Hall level 5.
-- Reach a target population (e.g. 50 colonists).
-- Complete a set of research branches.
+1. **All research complete.** Every research in the University. Where research is mutually
+   exclusive, completing one of the options counts.
+2. **Town Hall level 5.**
+3. **Survive the final raid.** Once 1 and 2 are done, the next raid is the final raid
+   (you can trigger it with MineColonies' raid command instead of waiting).
+   Your guards must defeat every raider **without the player fighting**. You stay out of it:
+   no attacking, no blocking, no healing.
+
+The colony survives if the raid is defeated and the Town Hall still stands.
+*(Open: should colonist deaths count against you? e.g. lose if more than a quarter of colonists die.)*
 
 ---
 

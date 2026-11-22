@@ -14,6 +14,7 @@ the work. The interesting constraint is not the opening, but everything the colo
 - **Hut blocks are colony-made.** The Sawmill learns them via datapack crafter recipes.
 - **The supply camp is the whole starting inventory** (Town Hall, Build Tool, Builder's Hut + materials,
   Forester's Hut, Sawmill hut, a few beds).
+- **Victory:** all research, Town Hall L5, then survive the final raid with guards only.
 - **Animals:** one breeding pair per animal hut may be led in by the player.
 - **Trade Post add-on:** not used. Its Marketplace Rare Finds felt overpowered for this challenge.
 
@@ -108,6 +109,6 @@ Structurize scan tool, and whether a style pack can ship *only* a supply camp.
 
 - **Loot:** allow guard-tower drops into the colony, or ban all loot?
 - **Dead ends:** strict (do without) vs. a 111-item exemption budget.
-- **Victory condition:** Town Hall L5? Population target? Research completion?
+- **Final raid:** do colonist deaths count against you? Confirm the raid command's syntax in your version.
 - **Versions:** Minecraft and MineColonies versions to target.
 - **Modpack gaps:** list any modded items in the pack that no colonist can produce.
